@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>forms</title>
+<style media="screen">
+*{
+  margin: 0px;
+
+  padding: 0px;
+}
+
+h1{
+  color:white;
+}
+
+h2{
+  margin-top: 15px;
+  color: white;
+}
+
+  form{
+    padding-top: 30px;
+    width: 500px;
+    border-radius: 5px;
+    float: right;
+    margin-top: 20px;
+    box-shadow: 1px 12px 12px  rgba(0,0,0,0.5);
+ margin-right: 220px;
+ height: 700px;
+background: rgba(0, 0, 0, 0.2);
+border-radius: 5px;
+border: black;
+  }
+.frm{
+
+  width: 1000px;
+  height: 100vh;
+  float: left;
+  background-image: url(back.jpeg);
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-size: cover;
+
+}
+
+.sidebar{
+height: 100vh;
+width: 579px;
+float: left;
+background-color:black ;
+}
+
+#nic{
+  padding: 20px 50px;
+  border-radius: 60px;
+  border: 2px solid black;
+}
+#btn{
+  border-radius: 40px;
+  padding: 20px 50px;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+label{
+  font-size: 20px;
+}
+.sidebar{
+  position: relative;
+}
+
+.tasveer{
+  /* position: absolute;
+  left: 30%;
+  right: 50%;
+  top:30%;
+  bottom:50%;
+  margin-top: 200px;
+  margin-left: 250; */
+
+}
+.line{
+  /* margin-top: 63%; */
+  border: 1px solid white;
+  width: 200px;
+  margin-left: 40px;
+  /* margin-left: 170px; */
+}
+p{
+  color: white;
+  text-align:center;
+font-size: 35px;
+}
+.set{
+  /* position: absolute; */
+  /* left: 50%; */
+
+
+
+  margin-top: 200px;
+  border: 2px solid white;
+  margin-left: 30%;
+  margin-right: 20%;
+  text-align: center;
+
+}
+
+</style>
+
+
+  </head>
+  <body>
+
+
+
+<div class="frm">
+
+    <form style="border:2px solid; text-align:center" >
+      <h1>REGISTRATION FORM</h1>
+      <label for="nic">CNIC NO:</label><br>
+      <input type="text" name="nicno" placeholder="e.g 4201-98878897-6" id="nic"><br>
+      <label for="fname"></label><br>
+      <input type="text" name="firstname" placeholder="FIRST NAME"id="nic"><br>
+      <label for="sname"></label><br>
+      <input type="text" name="secondname" placeholder="LAST NAME"id="nic"><br>
+      <label for="contact"></label><br>
+      <input type="text" name="contact"placeholder="CONTACT" id="nic"><br>
+      <label for="address"></label><br>
+      <input type="text" name="contact"placeholder="ADDRESS " id="nic"><br>
+      <h2>Travelling Status</h2>
+      <input type="checkbox" name="checkbox" value="box">
+      <label for="box">single</label><br>
+      <input  style="margin-left:15px;" type="checkbox" name="checkbox" value="box">
+      <label for="box">married</label><br>
+      <input type="checkbox" name="checkbox" value="box">
+      <label for="box">group</label><br>
+      <button type="button" name="button" id="btn">submit</button>
+</div>
+
+
+    </form>
+  </body>
+</html>
